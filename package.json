@@ -28,6 +28,7 @@
       "jsx",
       "json",
       "node"
-    ]
+    ],
+    "testTimeout": 120000
   }
 }
