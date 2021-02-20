@@ -29,6 +29,9 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 * Please follow the sequence to enhance your learning!
 
 [1. What is Playwright? | Playwright with Typescript & Jest - Part 1](https://youtu.be/zY-IoTYcbWs)
+
 [2. Playwright Jest Config & Launch Browser | Playwright - Part 2](https://youtu.be/DbdqflN3dJ4)
+
 [3. First Script - Auto Waits | Playwright - Part 3](https://youtu.be/9xEzNdG4XaQ)
+
 [4. Codeless Automation With PlayWright | Playwright - Part 4](https://youtu.be/gb43GiWwQKg)
