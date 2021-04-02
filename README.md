@@ -35,3 +35,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [3. First Script - Auto Waits | Playwright - Part 3](https://youtu.be/9xEzNdG4XaQ)
 
 [4. Codeless Automation With PlayWright | Playwright - Part 4](https://youtu.be/gb43GiWwQKg)
+
+[5. Save Test Execution In Video | Playwright - Part 5](https://youtu.be/0125rwgsBP8)
