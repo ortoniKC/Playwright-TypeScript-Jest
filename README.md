@@ -37,3 +37,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [4. Codeless Automation With PlayWright | Playwright - Part 4](https://youtu.be/gb43GiWwQKg)
 
 [5. Save Test Execution In Video | Playwright - Part 5](https://youtu.be/0125rwgsBP8)
+
+[6. How to upload files | Playwright - Part 6](https://youtu.be/e8jfjV71E6Q)
