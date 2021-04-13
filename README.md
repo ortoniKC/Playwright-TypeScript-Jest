@@ -41,3 +41,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [6. How to upload files | Playwright - Part 6](https://youtu.be/e8jfjV71E6Q)
 
 [7. Handling different types of inputs | Playwright - Part 7](https://youtu.be/Slv5fuTrIZg)
+
+[8. Handling different types of alerts | Playwright - Part 8](https://youtu.be/RzBlwacFIl0)
