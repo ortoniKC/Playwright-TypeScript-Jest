@@ -45,3 +45,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [8. Handling different types of alerts | Playwright - Part 8](https://youtu.be/RzBlwacFIl0)
 
 [9. Handling Select/DropDown | Playwright - Part 9](https://youtu.be/IubdSQFOdiU)
+
+[10. Window Handling | Playwright - Part 10](https://youtu.be/DyHQ3G442jY)
