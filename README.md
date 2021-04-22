@@ -47,3 +47,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [9. Handling Select/DropDown | Playwright - Part 9](https://youtu.be/IubdSQFOdiU)
 
 [10. Window Handling | Playwright - Part 10](https://youtu.be/DyHQ3G442jY)
+
+[11. Frames | Playwright - Part 11](https://youtu.be/Vqm-8G81W8w)
