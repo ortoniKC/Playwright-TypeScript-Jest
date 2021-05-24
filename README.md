@@ -49,3 +49,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [10. Window Handling | Playwright - Part 10](https://youtu.be/DyHQ3G442jY)
 
 [11. Frames | Playwright - Part 11](https://youtu.be/Vqm-8G81W8w)
+
+[12. Find Multiple Elements - part 12](https://youtu.be/54OwsiRa_eE)
