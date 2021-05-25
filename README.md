@@ -51,3 +51,5 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [11. Frames | Playwright - Part 11](https://youtu.be/Vqm-8G81W8w)
 
 [12. Find Multiple Elements - part 12](https://youtu.be/54OwsiRa_eE)
+
+[13. How To Take Screenshot - part 13](https://youtu.be/G650JxukN1A)
