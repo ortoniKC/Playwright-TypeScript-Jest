@@ -55,3 +55,8 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 [13. How To Take Screenshot - part 13](https://youtu.be/G650JxukN1A)
 
 [14. How To Run In Local Browser | Playwright - Part 14](https://youtu.be/5LrRFHI81o4)
+
+[15. Drag and Drop | Playwright - Part 15](https://youtu.be/0wFkhkdcT8A)
+
+[16. Page Object Model | Playwright - Part 16](https://youtu.be/WSd6-X-n6P8)
+

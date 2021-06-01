@@ -1,6 +1,6 @@
-import { Browser, BrowserContext, Page, chromium } from "playwright";
+import { Browser, BrowserContext, Page, chromium, Frame } from "playwright";
 
-describe("Search Git Repo", () => {
+describe("Drag and Drop", () => {
     let browser: Browser;
     let context: BrowserContext;
     let page: Page;
@@ -10,26 +10,46 @@ describe("Search Git Repo", () => {
         });
         context = await browser.newContext()
         page = await context.newPage();
-        await page.goto("https://letcode.in/dropable")
     })
-    test("my test", async () => {
+    xtest("my test", async () => {
+        await page.goto("https://letcode.in/dropable")
         const src = await page.$("#draggable")
-        const dst = await page.$("#droppable")
-
-
-        // draga and drop
-        const srcbound = await src?.boundingBox()
-        const dstbound = await dst?.boundingBox()
-        if (srcbound && dstbound) {
-            await page.mouse.move(srcbound?.x, srcbound?.y, { steps: 5 })
-            await page.mouse.down();
-            console.log(dstbound.x, dstbound.y, dstbound.height, dstbound.width);
-
-            await page.mouse.move(dstbound.x + 20, dstbound.y + 30,
-                { steps: 5 })
-            await page.mouse.up();
+        const dst = await page.$("#droppable");
+        if (src && dst) {
+            const srcBound = await src.boundingBox()
+            const dstBound = await dst.boundingBox()
+            if (srcBound && dstBound) {
+                await page.mouse.move(srcBound.x + srcBound.width / 2, srcBound.y + srcBound.height / 2)
+                await page.mouse.down();
+                await page.mouse.move(dstBound.x + dstBound.width / 2, dstBound.y + dstBound.height / 2)
+                await page.mouse.down();
+            } else {
+                throw new Error("No Element")
+            }
         }
 
-
     })
+
+    test("my test", async () => {
+        await page.goto("https://jqueryui.com/droppable/")
+        // switch to frame
+        const frame = page.frame({ url: "https://jqueryui.com/resources/demos/droppable/default.html" })
+        if (frame) {
+            const src = await frame.$("#draggable")
+            const dst = await frame.$("#droppable");
+            if (src && dst) {
+                const srcBound = await src.boundingBox()
+                const dstBound = await dst.boundingBox()
+                if (srcBound && dstBound) {
+                    await page.mouse.move(srcBound.x + srcBound.width / 2, srcBound.y + srcBound.height / 2)
+                    await page.mouse.down();
+                    await page.mouse.move(dstBound.x + dstBound.width / 2, dstBound.y + dstBound.height / 2)
+                    await page.mouse.down();
+                } else {
+                    throw new Error("No Element")
+                }
+            }
+        }
+    })
+
 })
