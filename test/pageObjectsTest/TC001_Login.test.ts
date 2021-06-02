@@ -3,6 +3,7 @@ import CommonFunctions from "../../page/common.page";
 import HeaderPage from "../../page/Header.page";
 import LoginPage from "../../page/Login.page";
 import Env from "../../utils/environment";
+import * as data from "../../data/login.cred.json";
 
 describe("TC001", () => {
 
@@ -33,10 +34,10 @@ describe("TC001", () => {
         expect(page.url()).toBe("https://letcode.in/")
         await header.clickLoginLink();
         expect(page.url()).toBe("https://letcode.in/signin")
-        await login.enterUserName('koushik1@letcode.in');
-        await login.enterUserPassword('Pass123$');
+        await login.enterUserName(data.email);
+        await login.enterUserPassword(data.pass);
         await login.clickLoginBtn();
-        const toaster = await common.toaster;
+        const toaster = await common.toaster();
         expect(await toaster?.textContent()).toContain("Welcome");
         await header.clickSignOutLink();
     });

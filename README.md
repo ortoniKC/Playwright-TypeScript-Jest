@@ -60,3 +60,6 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 
 [16. Page Object Model | Playwright - Part 16](https://youtu.be/WSd6-X-n6P8)
 
+[17. POM Enhancement & JSON | Playwright - Part 17](https://youtu.be/00xGOpnOzds)
+
+
