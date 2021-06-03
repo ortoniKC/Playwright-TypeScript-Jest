@@ -4,6 +4,11 @@
         "strict": true,
         "module": "commonjs",
         "sourceMap": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "types": [
+            "@types/jest",
+            "jest-playwright-preset",
+            "expect-playwright",
+        ]
     }
 }
