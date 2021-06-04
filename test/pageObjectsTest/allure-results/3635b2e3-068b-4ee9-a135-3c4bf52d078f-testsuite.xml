@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622819405692' stop='1622819419830'>
+    <name>TC001</name>
+    <title>TC001</title>
+    <test-cases>
+        <test-case start='1622819410018' status='passed' stop='1622819419830'>
+            <name>Login positive _ JIRA101</name>
+            <title>Login positive _ JIRA101</title>
+            <labels>
+                <label name='story' value='JIRA101'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1622819410020' status='passed' stop='1622819410022'>
+                    <name>Navigate to letcode</name>
+                    <title>Navigate to letcode</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622819410022' status='undefined'>
+                    <name>Click login link</name>
+                    <title>Click login link</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1622819411297' status='passed' stop='1622819411456'>
+                            <name>enter username</name>
+                            <title>enter username</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1622819411456' status='passed' stop='1622819411533'>
+                            <name>enter password</name>
+                            <title>enter password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1622819414124' status='passed' stop='1622819419828'>
+                            <name>Log out</name>
+                            <title>Log out</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Login into LetCode</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
