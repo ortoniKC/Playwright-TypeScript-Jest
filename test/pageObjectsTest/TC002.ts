@@ -9,7 +9,7 @@ import ReportUtils from "../../utils/reportUtils";
 declare const page: Page;
 declare const reporter: any;
 
-describe("TC001", () => {
+describe("TC002", () => {
     // my pages
     let header: HeaderPage;
     let login: LoginPage;
@@ -22,12 +22,12 @@ describe("TC001", () => {
         common = new CommonFunctions(page);
     })
 
-    test("Login positive _ JIRA101", async () => {
+    test("Login positive 102", async () => {
         await reporter
             .description("Login into LetCode")
             .story("JIRA101");
         await reporter.startStep("Navigate to letcode");
-        expect(page.url()).toBe("https://letcode.in/somsoajojsodash")
+        expect(page.url()).toBe("https://letcode.in/")
         await ReportUtils.screenshot("naviagation")
         await reporter.endStep();
         await reporter.startStep("Click login link");
@@ -53,7 +53,7 @@ describe("TC001", () => {
         await reporter.endStep();
 
     });
-    test("Login again", async () => {
+    test("Login again 2", async () => {
         await page.goto(Env.test, {
             waitUntil: "domcontentloaded"
         });

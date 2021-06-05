@@ -27,7 +27,9 @@ export default class HeaderPage {
 
     public async clickLoginLink() {
         await Promise.all([
-            this.page.waitForNavigation(),
+            this.page.waitForNavigation({
+                waitUntil: "domcontentloaded"
+            }),
             this.page.click("text=Log in")
         ])
         // const ele = await this.eleLoginBtn;
