@@ -27,7 +27,7 @@ describe("TC001", () => {
             .description("Login into LetCode")
             .story("JIRA101");
         await reporter.startStep("Navigate to letcode");
-        expect(page.url()).toBe("https://letcode.in/somsoajojsodash")
+        expect(page.url()).toBe("https://letcode.in/")
         await ReportUtils.screenshot("naviagation")
         await reporter.endStep();
         await reporter.startStep("Click login link");

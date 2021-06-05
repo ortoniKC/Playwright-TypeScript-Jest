@@ -64,5 +64,6 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 
 [18. POM Enhancement & JSON | Playwright - Part 18](https://youtu.be/w05KGL8G0f4)
 
+[19. Jest Allure Report |  Playwright - Part 19](https://youtu.be/tjpSkaBq9c0)
 
-[19. Jest Allure Report](https://youtu.be/tjpSkaBq9c0)
+[20. Jest Allure Report |  Playwright - Part 120](https://youtu.be/xffrNccLIso)
