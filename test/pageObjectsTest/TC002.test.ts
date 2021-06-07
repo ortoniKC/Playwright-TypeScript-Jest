@@ -22,7 +22,7 @@ describe("TC002", () => {
         common = new CommonFunctions(page);
     })
 
-    test("Login positive 102", async () => {
+    test("TC002 Login 1", async () => {
         await reporter
             .description("Login into LetCode")
             .story("JIRA101");
@@ -53,14 +53,14 @@ describe("TC002", () => {
         await reporter.endStep();
 
     });
-    test("Login again 2", async () => {
-        await page.goto(Env.test, {
-            waitUntil: "domcontentloaded"
-        });
-        await header.clickLoginLink();
-        await login.login("koushik350@gmail.com", "Pass123$");
-        await page.waitForNavigation();
-        expect(page.url()).toBe("https://letcode.in/")
-        await ReportUtils.screenshot("done")
-    })
+    // test("TC002 Login 2", async () => {
+    //     await page.goto(Env.test, {
+    //         waitUntil: "domcontentloaded"
+    //     });
+    //     await header.clickLoginLink();
+    //     await login.login("koushik350@gmail.com", "Pass123$");
+    //     await page.waitForNavigation();
+    //     expect(page.url()).toBe("https://letcode.in/")
+    //     await ReportUtils.screenshot("done")
+    // })
 })

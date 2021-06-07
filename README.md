@@ -66,4 +66,6 @@ Playwright enables fast, reliable, and capable automation across all modern brow
 
 [19. Jest Allure Report |  Playwright - Part 19](https://youtu.be/tjpSkaBq9c0)
 
-[20. Jest Allure Report |  Playwright - Part 120](https://youtu.be/xffrNccLIso)
+[20. Jest Allure Report |  Playwright - Part 20](https://youtu.be/xffrNccLIso)
+
+[21. Skip on failure |  Playwright - Part 21](https://youtu.be/4-IBKtbAxlg)
