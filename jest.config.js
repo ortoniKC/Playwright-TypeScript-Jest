@@ -8,8 +8,8 @@ module.exports = {
     testRunner: 'jasmine2',
     setupFilesAfterEnv: ["jest-allure/dist/setup"],
     testMatch: [
-        "<rootDir>/test/pageObjectsTest/*.test.ts"
+        "<rootDir>/test/pageObjectsTest/TC002.test.ts"
     ],
     bail: true,
-    bail: 1
+    bail: 1,
 }

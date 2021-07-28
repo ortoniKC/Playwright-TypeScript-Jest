@@ -22,6 +22,12 @@ describe("TC002", () => {
         common = new CommonFunctions(page);
     })
 
+    afterAll(async () => {
+        await page.close();
+        await context.close();
+        await browser.close();
+    })
+
     test("TC002 Login 1", async () => {
         await reporter
             .description("Login into LetCode")
